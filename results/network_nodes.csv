@@ -1,0 +1,28 @@
+id,label,type,latitude,longitude,capacity,region,total_demand
+GUT930,WH: GUT930,warehouse,38.29984854528513,-117.09581939159004,11685.0,Europe,
+AXW291,WH: AXW291,warehouse,34.96646210492592,-76.69119271125325,10769.0,Asia Pacific,
+NXH382,WH: NXH382,warehouse,23.900466011060917,-89.94424941283955,12433.0,North America,
+FLR025,WH: FLR025,warehouse,23.899863008405067,-84.59637111019772,15311.0,Europe,
+Canada,Region: Canada,region,27.275023078961706,-104.93371241697027,,,3048.0
+Caribbean,Region: Caribbean,region,20.49739668817114,-92.216363654404,,,25571.0
+Central Africa,Region: Central Africa,region,26.88560991115296,-104.65908237850044,,,5183.0
+Central America,Region: Central America,region,30.284118137561045,-78.53826494459786,,,87325.0
+Central Asia,Region: Central Asia,region,31.507893608436447,-76.7415063244024,,,1692.0
+East Africa,Region: East Africa,region,36.53171623984382,-116.76439857496294,,,5674.0
+East of USA,Region: East of USA,region,26.82076331910631,-77.97709345038085,,,21234.0
+Eastern Asia,Region: Eastern Asia,region,24.916963095352756,-71.56392284793279,,,20164.0
+Eastern Europe,Region: Eastern Europe,region,24.908453733098156,-94.28750422792987,,,12361.0
+North Africa,Region: North Africa,region,26.229243778851824,-81.04838746772487,,,10037.0
+Northern Europe,Region: Northern Europe,region,41.08943240629179,-115.13024590377557,,,28658.0
+Oceania,Region: Oceania,region,37.8268680712307,-90.38163022541622,,,28713.0
+South America,Region: South America,region,41.23172835671174,-87.40266255481852,,,45897.0
+South Asia,Region: South Asia,region,26.558203838159503,-94.18609295309578,,,21954.0
+South of  USA ,Region: South of  USA ,region,43.97631694646469,-99.41005493624061,,,12363.0
+Southeast Asia,Region: Southeast Asia,region,36.460367053009634,-83.05939494412559,,,26468.0
+Southern Africa,Region: Southern Africa,region,42.727735930226245,-117.0024292354816,,,3507.0
+Southern Europe,Region: Southern Europe,region,39.02147935055136,-105.74772184864479,,,27423.0
+US Center ,Region: US Center ,region,21.250896401764866,-75.96287381839093,,,18233.0
+West Africa,Region: West Africa,region,41.71453804406025,-95.43030961544724,,,11502.0
+West Asia,Region: West Asia,region,43.11020507331281,-97.42258655244454,,,18571.0
+West of USA ,Region: West of USA ,region,20.006272049230905,-77.62597977429485,,,24667.0
+Western Europe,Region: Western Europe,region,37.66956246812442,-93.70795572850962,,,79448.0
