@@ -1,0 +1,9 @@
+pandas
+numpy
+pulp
+streamlit
+plotly
+networkx
+matplotlib
+seaborn
+scipy
