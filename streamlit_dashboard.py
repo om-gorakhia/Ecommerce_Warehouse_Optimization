@@ -1844,7 +1844,7 @@ def show_about_team():
         st.markdown("""
         **GitHub Repository:**
         ```
-        [https://github.com/om-gorakhia/Ecommerce_Warehouse_Optimization]
+        https://github.com/om-gorakhia/Ecommerce_Warehouse_Optimization
         ```
 
         Contains:
@@ -1902,3 +1902,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
