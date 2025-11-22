@@ -3574,7 +3574,7 @@ def show_about_team(data):
     with col2:
         github_url = st.text_input(
             "GitHub Repository URL:",
-            placeholder="https://github.com/username/warehouse-optimization",
+            placeholder="https://github.com/om-gorakhia/Ecommerce_Warehouse_Optimization",
             help="Enter your project's GitHub repository URL"
         )
 
@@ -3760,3 +3760,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
