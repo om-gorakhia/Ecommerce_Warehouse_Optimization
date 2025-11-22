@@ -1,0 +1,28 @@
+id,label,type,latitude,longitude
+GUT930,WH: GUT930,warehouse,38.29984854528513,-117.09581939159004
+AXW291,WH: AXW291,warehouse,34.96646210492592,-76.69119271125325
+NXH382,WH: NXH382,warehouse,23.900466011060917,-89.94424941283955
+FLR025,WH: FLR025,warehouse,23.899863008405067,-84.59637111019772
+Canada,Region: Canada,region,34.51108381975802,-73.94999765058785
+Caribbean,Region: Caribbean,region,28.51164501567056,-81.49255033636794
+Central Africa,Region: Central Africa,region,22.20932964611853,-76.84458616798203
+Central America,Region: Central America,region,33.49589228765384,-88.7404073639822
+Central Asia,Region: Central Asia,region,44.077821536415286,-101.1173857620637
+East Africa,Region: East Africa,region,26.42234100105164,-87.85361300190264
+East of USA,Region: East of USA,region,35.888036984037775,-99.33889498696628
+Eastern Asia,Region: Eastern Asia,region,26.157793875390546,-88.84039293588376
+Eastern Europe,Region: Eastern Europe,region,43.34458953419424,-98.1690875831263
+North Africa,Region: North Africa,region,44.06983957521393,-78.22212135002218
+Northern Europe,Region: Northern Europe,region,43.12948454213561,-83.21070339894311
+Oceania,Region: Oceania,region,22.951932015420766,-77.19163441808196
+South America,Region: South America,region,26.22839653038016,-86.51059405763738
+South Asia,Region: South Asia,region,30.897228010668513,-106.57272928893292
+South of  USA ,Region: South of  USA ,region,34.531522520373336,-76.78996046065822
+Southeast Asia,Region: Southeast Asia,region,36.1370628586842,-92.81662639303562
+Southern Africa,Region: Southern Africa,region,44.92634381260808,-79.23508602646575
+Southern Europe,Region: Southern Europe,region,43.07811202982532,-119.02649530491792
+US Center ,Region: US Center ,region,38.84897605577699,-118.95502014922619
+West Africa,Region: West Africa,region,37.87109157627327,-114.59851837962823
+West Asia,Region: West Asia,region,33.204577677270855,-79.91572120006475
+West of USA ,Region: West of USA ,region,29.230749580858244,-110.85701363308443
+Western Europe,Region: Western Europe,region,32.27506271085537,-113.32887838475347

@@ -1,0 +1,42 @@
+{
+  "analysis_timestamp": "2025-11-21T16:56:01.500544",
+  "total_scenarios_analyzed": 9,
+  "scenario_names": [
+    "Baseline",
+    "Increased_Capacity_10pct",
+    "Increased_Capacity_20pct",
+    "Increased_Capacity_30pct",
+    "Reduced_Transport_Cost_10pct",
+    "Reduced_Transport_Cost_20pct",
+    "Increased_Transport_Cost_10pct",
+    "Higher_Service_Target_97pct",
+    "Higher_Service_Target_99pct"
+  ],
+  "corrections_applied": {
+    "stockout_penalty_multiplier": "Changed from 3x to 10x (reflects CLV)",
+    "profit_calculation": "Fixed to use full revenue - full cost (no margin assumption)",
+    "inventory_model": "Changed from static snapshot to flow capacity (12x turnover)",
+    "validation_logging": "Added comprehensive tracking"
+  },
+  "model_assumptions": {
+    "inventory_turnover_rate": 12,
+    "service_level_target": 0.95,
+    "max_delivery_days": 3,
+    "demand_growth_rate": 0.05,
+    "stockout_penalty_multiplier": 10
+  },
+  "data_source": {
+    "warehouses": 4,
+    "products": 118,
+    "regions": 23,
+    "total_demand": 539693,
+    "static_inventory": 104152,
+    "flow_capacity": 1249824
+  },
+  "baseline_results": {
+    "total_cost": 36324364.238550544,
+    "fulfillment_rate": 0.9719062504053231,
+    "on_time_rate": 0.4845901639344262,
+    "profit_improvement": 60452630.310273804
+  }
+}

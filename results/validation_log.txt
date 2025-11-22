@@ -1,0 +1,80 @@
+================================================================================
+WAREHOUSE OPTIMIZATION - VALIDATION LOG (FINAL CORRECTED)
+================================================================================
+
+Analysis completed: 2025-11-21 16:56:01
+
+CORRECTIONS APPLIED:
+1. Stockout penalty multiplier: 3x -> 10x (reflects CLV)
+2. Profit calculation: Fixed to use full revenue - full cost
+3. Inventory model: Static -> Flow capacity (12x turnover)
+4. Added comprehensive validation logging
+
+================================================================================
+DETAILED LOG:
+================================================================================
+
+[16:16:16] Loaded 4 warehouses, 118 products, 1543 demand points
+[16:16:16] Original demand (2018): 384,079 units
+[16:16:16] Projected demand (2025): 539,693 units (+155,614)
+[16:16:16] Service-compliant routes: 14/92
+[16:16:16] CRITICAL FIX: Using 10× multiplier (was 3×) to reflect Customer Lifetime Value
+[16:16:16] INVENTORY MODEL CORRECTION:
+[16:16:16]   Static inventory (snapshot): 104,152 units
+[16:16:16]   Flow capacity (12× turnover): 1,249,824 units/year
+[16:16:16]   Annual demand: 539,693 units
+[16:16:16]   Capacity coverage: 231.6%
+[16:16:16] Starting scenario: Baseline
+[16:21:16] PROFIT CALCULATION (Full Revenue Method):
+[16:21:16]   Revenue: $87,288,759.63 (524,531 units × $166.41)
+[16:21:16]   Total cost: $36,324,364.24
+[16:21:16]   Profit: $50,964,395.39
+[16:21:16]   Improvement: $60,452,630.31
+[16:21:16] Starting scenario: Increased_Capacity_10pct
+[16:26:17] PROFIT CALCULATION (Full Revenue Method):
+[16:26:17]   Revenue: $87,459,299.64 (525,556 units × $166.41)
+[16:26:17]   Total cost: $34,938,179.67
+[16:26:17]   Profit: $52,521,119.97
+[16:26:17]   Improvement: $62,009,354.89
+[16:26:17] Starting scenario: Increased_Capacity_20pct
+[16:31:17] PROFIT CALCULATION (Full Revenue Method):
+[16:31:17]   Revenue: $87,624,015.19 (526,546 units × $166.41)
+[16:31:17]   Total cost: $33,554,320.32
+[16:31:17]   Profit: $54,069,694.87
+[16:31:17]   Improvement: $63,557,929.79
+[16:31:17] Starting scenario: Increased_Capacity_30pct
+[16:36:18] PROFIT CALCULATION (Full Revenue Method):
+[16:36:18]   Revenue: $87,787,233.03 (527,526 units × $166.41)
+[16:36:18]   Total cost: $32,179,413.99
+[16:36:18]   Profit: $55,607,819.04
+[16:36:18]   Improvement: $65,096,053.96
+[16:36:18] Starting scenario: Reduced_Transport_Cost_10pct
+[16:39:30] PROFIT CALCULATION (Full Revenue Method):
+[16:39:30]   Revenue: $87,357,488.18 (524,944 units × $166.41)
+[16:39:30]   Total cost: $34,398,769.23
+[16:39:30]   Profit: $52,958,718.95
+[16:39:30]   Improvement: $62,446,953.87
+[16:39:30] Starting scenario: Reduced_Transport_Cost_20pct
+[16:42:24] PROFIT CALCULATION (Full Revenue Method):
+[16:42:24]   Revenue: $87,419,560.22 (525,317 units × $166.41)
+[16:42:24]   Total cost: $32,471,886.46
+[16:42:24]   Profit: $54,947,673.76
+[16:42:24]   Improvement: $64,435,908.68
+[16:42:24] Starting scenario: Increased_Transport_Cost_10pct
+[16:47:24] PROFIT CALCULATION (Full Revenue Method):
+[16:47:24]   Revenue: $87,187,414.13 (523,922 units × $166.41)
+[16:47:24]   Total cost: $38,247,749.38
+[16:47:24]   Profit: $48,939,664.76
+[16:47:24]   Improvement: $58,427,899.68
+[16:47:24] Starting scenario: Higher_Service_Target_97pct
+[16:52:25] PROFIT CALCULATION (Full Revenue Method):
+[16:52:25]   Revenue: $87,288,759.63 (524,531 units × $166.41)
+[16:52:25]   Total cost: $36,324,364.24
+[16:52:25]   Profit: $50,964,395.39
+[16:52:25]   Improvement: $60,452,630.31
+[16:52:25] Starting scenario: Higher_Service_Target_99pct
+[16:56:01] PROFIT CALCULATION (Full Revenue Method):
+[16:56:01]   Revenue: $87,288,759.63 (524,531 units × $166.41)
+[16:56:01]   Total cost: $36,324,364.24
+[16:56:01]   Profit: $50,964,395.39
+[16:56:01]   Improvement: $60,452,630.31
