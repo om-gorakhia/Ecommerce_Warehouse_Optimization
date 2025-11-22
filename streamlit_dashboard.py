@@ -678,7 +678,7 @@ def show_executive_summary(data):
             <li><strong>Problem 1: Low Fulfillment (45%)</strong> → 
                 <strong>Solution: 99% fulfillment achieved</strong> through optimal allocation</li>
             <li><strong>Problem 2: High Stockouts (55%)</strong> → 
-                <strong>Solution: <3% stockouts</strong> with flow capacity model</li>
+                <strong>Solution: <5% stockouts</strong> with flow capacity model</li>
             <li><strong>Problem 3: Unprofitable Operations</strong> → 
                 <strong>Solution: $44.9M profit improvement</strong> from cost optimization</li>
             <li><strong>Problem 4: Inefficient Transport</strong> → 
@@ -2615,7 +2615,7 @@ def show_insights_recommendations(data):
             'icon': '2️⃣',
             'problem': 'High Stockouts (55%)',
             'solution': 'Optimal Allocation Algorithm',
-            'result': '<3% Stockouts',
+            'result': '<5% Stockouts',
             'method': 'Linear Programming finds mathematically optimal product distribution across warehouses',
             'impact': f"{kpis['total_stockouts']:,.0f} units unfulfilled (99% reduction)"
         },
